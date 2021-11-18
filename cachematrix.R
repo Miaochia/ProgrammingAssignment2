@@ -5,8 +5,7 @@
 ## matrix, set the value of the inverse of the matrix, and get the value of the
 ## inverse of the matrix.
 
-makeCacheMatrix <- function(a, b, c) {
-  x <- matrix(a, b, c)
+makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(y) {
     x <<- y
